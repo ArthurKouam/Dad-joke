@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: palevioletred;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: white;
+    padding: 20px 30px;
+    width: 700px;
+    max-width: 95%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+div .pre{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+div .joke{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div button{
+    margin-top: 40px;
+    width: 220px;
+    height: 50px;
+    background-color: #bf35aa;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div button:active{
+    transform: scale(0.97);
+}
