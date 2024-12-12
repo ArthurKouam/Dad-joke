@@ -53,9 +53,10 @@ div button:active{
 
 @media(max-width: 500px){
 	div{
-		height: 50%;
+		height: 30em;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		with: 23.6em;
+	}
 }
